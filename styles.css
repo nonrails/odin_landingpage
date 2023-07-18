@@ -1,0 +1,38 @@
+*{
+    --dark-background: #1F2937;
+}
+#hero-main{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+#hero-secondary, #header-link{
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#Button, #call-to-action{
+    background-color: #3882F6;
+}
+
+#information-header{
+    font-size:36px;
+    color: #1F2937;
+}
+
+#quote-section{
+    background-color: #E5E7EB;
+}
+
+#quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 300;
+    color: #1F2937;
+}
