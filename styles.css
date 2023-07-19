@@ -1,6 +1,12 @@
 *{
     --dark-background: #1F2937;
 }
+
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
 #hero-main{
     font-size: 48px;
     font-weight: 700;
@@ -39,10 +45,38 @@
 
 #section-1{
     background-color: var(--dark-background);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
+#section-1 p{
+    max-width: 52ch;
+}
+
+#section-2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+#picture-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#section-2 img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
 header{
     background-color: var(--dark-background);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 footer{
@@ -50,4 +84,5 @@ footer{
     flex-flow: row wrap;
     justify-content: center;
     background-color: var(--dark-background);
+    color: white;
 }
