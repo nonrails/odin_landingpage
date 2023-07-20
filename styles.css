@@ -1,6 +1,7 @@
 *{
     --dark-background: #1F2937;
     --blue-accent: #3882F6;
+    --white-text: #F9FAF8;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 #hero-main{
     font-size: 48px;
     font-weight: 700;
-    color: #F9FAF8;
+    color: var(--white-text)
 }
 
 #hero-secondary{
@@ -21,7 +22,7 @@ body {
 
 #header-logo{
     font-size: 24px;
-    color: #F9FAF8;
+    color: var(--white-text)
 }
 
 #information-header{
@@ -45,16 +46,22 @@ body {
     padding: 5%;
 }
 
-#section-1 p{
-    max-width: 52ch;
+
+#section-1 h1{
+    margin-bottom: 0;
 }
 
-#section-1 div{
+#section-1 p{
+    max-width: 62ch;
+    margin-top: 4px;
+}
+
+#section-1 #hero-text{
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    max-width: 45ch;
+    max-width: 52ch;
 }
 
 #section-1 button{
@@ -67,6 +74,19 @@ body {
     height: 36px;
     width: 120px;
     background-color: var(--blue-accent);
+}
+
+#section-1 #image{
+    width: 500px;
+    height: 250px;
+    background-color: #66707c;
+}
+
+#section-1 #image img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    object-position: 100% 35%;
 }
 
 #section-2{
@@ -109,7 +129,13 @@ header{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding: 8px;
+    padding: 16px;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: var(--white-text);
+    font-weight: 700;
 }
 
 #header-links{
@@ -117,6 +143,7 @@ header{
     color: #E5E7EB;
     display: flex;
     flex-flow: row wrap;
+    gap: 20px;
 }
 
 footer{
@@ -137,7 +164,7 @@ footer{
 
 #section-3 p{
     max-width: 42ch;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 4px;
 }
 
