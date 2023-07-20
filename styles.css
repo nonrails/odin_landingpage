@@ -1,5 +1,6 @@
 *{
     --dark-background: #1F2937;
+    --blue-accent: #3882F6;
 }
 
 body {
@@ -21,10 +22,6 @@ body {
 #header-logo{
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.button, #call-to-action{
-    background-color: #3882F6;
 }
 
 #information-header{
@@ -60,6 +57,18 @@ body {
     max-width: 45ch;
 }
 
+#section-1 button{
+    border: 2px solid var(--blue-accent);
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    height: 36px;
+    width: 120px;
+    background-color: var(--blue-accent);
+}
+
 #section-2{
     display: flex;
     flex-flow: column wrap;
@@ -92,7 +101,7 @@ body {
 #section-2 img{
     width: 165px;
     height: 165px;
-    border: 4px solid #3882F6;
+    border: 4px solid var(--blue-accent);
     border-radius: 12px;
 }
 header{
@@ -147,6 +156,7 @@ footer{
 #call-to-action{
     display: flex;
     flex-flow: row wrap;
+    background-color:var(--blue-accent);
     border-radius: 8px;
     padding: 8px;
     align-items: center;
@@ -176,4 +186,5 @@ footer{
     font-size: 16px;
     height: 36px;
     width: 120px;
+    background-color: var(--blue-accent);
 }
